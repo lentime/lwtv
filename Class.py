@@ -14,10 +14,10 @@ class TvList():
         self.Url=[]
         self.Open=[]
         self.ServeName=[]
-    def Add(self,_Open,_Url,_ServeName):
+    def Add(self,_Open,_Url,_ServeName,_Freature):
         self.Open.append(_Open)
         self.Url.append(_Url)
-        self.ServeName.append(_ServeName)
+        self.ServeName.append(_ServeName+" ["+_Freature+"]")
     def TypeAdd(self,value,value1):
         self.ServeName.append(value.GetServeName())
         self.Open.append(value.GetOpen())
