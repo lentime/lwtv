@@ -1,5 +1,6 @@
 #coding:utf-8
-print "德马西亚"
+print "天天好心情"
+
 player="vlc"
 webbrowser="www"
 

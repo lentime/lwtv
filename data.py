@@ -287,6 +287,7 @@ guizhou_ws.SetName("贵州卫视")
 guizhou_ws.TypeAdd(qq,"3051487004")
 guizhou_ws.TypeAdd(letv,"guizhou")
 
+
 #广东
 
 guangdong_ws=TvList()
